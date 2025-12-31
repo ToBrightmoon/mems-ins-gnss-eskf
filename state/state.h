@@ -8,7 +8,7 @@ namespace State
     struct Attitude
     {
         Eigen::Quaterniond qbn;
-        Eigen::Matrix3d Cbn;
+        Eigen::Matrix3d cbn;
         Eigen::Vector3d euler;
     };
 
